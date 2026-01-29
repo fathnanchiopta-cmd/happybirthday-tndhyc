@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+/* Background utama */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Kotak tengah */
+.content {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px 50px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Judul */
+.content h1 {
+  color: #ff5e78;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+/* Deskripsi */
+.content p {
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+/* Tombol */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #ff5e78;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff3f5f;
+}
+
+body {
+  background-color: pink;
+}
+
+/* CSS BARU DITAMBAHKAN DI SINI */
+.card {
+  width: 300px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #ffc0cb;
+}
+
+/* About Section */
+.about,
+.produk {
+  padding: 7rem 7% 1.4rem;
+}
+
+.about h2,
+.produk h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about h2 span,
+.produk h2 span {
+  color: var(--primary);
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  flex: 1 1 25rem;
+}
+
+.about .row .about-img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1.5rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.8rem;
+}
+
+.about .row .content h3 span {
+  font-style: italic;
+}
+
+.about .row .content h3 span {
+  color: var(--primary);
+}
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* doa dan harapan */
+.card {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /* Tengah horizontal */
+    align-items: center; /* Tengah vertikal */
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  }
+
+  /* KARTU UCAPAN */
+  .card {
+    background: white;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  h1 {
+    color: #ff5e78;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+
+  .akhir {
+    font-weight: bold;
+    color: #ff5e78;
+  }
+}
+
+/* java script */
+.confetti {
+  position: fixed;
+  top: -10px;
+  width: 8px;
+  height: 8px;
+  opacity: 0.8;
+  animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
